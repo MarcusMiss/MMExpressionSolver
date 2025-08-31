@@ -1,0 +1,15 @@
+{
+  "originHash" : "5adf6dc785de324b2c99f21f04953e433bfee54045e54ea83fe23af8e86e9648",
+  "pins" : [
+    {
+      "identity" : "mmecletic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MarcusMiss/MMEcletic.git",
+      "state" : {
+        "revision" : "e4f42f737d1b8a60f1eae1c3a2b786c1d7d35188",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}

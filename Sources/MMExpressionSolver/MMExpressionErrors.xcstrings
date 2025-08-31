@@ -1,0 +1,394 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "error.argumentCountNotMatching" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of arguments not valid for “%2$@“ at position %1$d."
+          }
+        }
+      }
+    },
+    "error.argumentMissing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Argument missing for “%2$@“ at position %1$d."
+          }
+        }
+      }
+    },
+    "error.closingQuoteNotFound" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Closing quote-symbol for “%1$@“ not found in range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.divisionByZero" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Division by zero (“%1$@“) found at position %2$d."
+          }
+        }
+      }
+    },
+    "error.emptyExpression" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty expression received: “%1$@“"
+          }
+        }
+      }
+    },
+    "error.illegalNumberFormat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Illegal number-format found “%2$@“ at position %1$d."
+          }
+        }
+      }
+    },
+    "error.internalError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internal error %1$@ occurred."
+          }
+        }
+      }
+    },
+    "error.invalidFieldInStructure" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Field “%2$@“ not valid for structur-access at position %1$d."
+          }
+        }
+      }
+    },
+    "error.invalidIndex" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid array-index “%1$@“ at position %2$d."
+          }
+        }
+      }
+    },
+    "error.invalidParameter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parameter “%1$@“ expected %2$@ but got %3$@: “%4$@“."
+          }
+        }
+      }
+    },
+    "error.invalidParameterType" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Function “%2$@“ received for parameter “%3$@“ invalid value “%4$@“ at position %1$d."
+          }
+        }
+      }
+    },
+    "error.invalidParameterValue" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parameter “%3$@“ of function “%2$@“ at position %1$d with value “%4$@“ not valid."
+          }
+        }
+      }
+    },
+    "error.invalidTypeInStructure" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unsupported type “%1$@“ for “%2$@“ in structure at %3$d."
+          }
+        }
+      }
+    },
+    "error.misplacedStructureOperator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misplaced structure-operator “%1$@“ found at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.missingOperandForOperator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing Operand for operator “%1$@“ at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.missingOperator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing operator %1$@ at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.missingSecondOperandForOperator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missing second Operand for operator “%1$@“ at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.nillNotAllowed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nil not allowed for parameter “%1$@“."
+          }
+        }
+      }
+    },
+    "error.nonMatchingOperand" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operand-value “%1$@“ does not match expected type at %2$d."
+          }
+        }
+      }
+    },
+    "error.nonMatchingOperandLeft" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operand-value on left side “%1$@“ does not match expected type at %2$d."
+          }
+        }
+      }
+    },
+    "error.nonMatchingOperandRight" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operand-value on right side “%1$@“ does not match expected type at %2$d."
+          }
+        }
+      }
+    },
+    "error.numberWithMoreThanOneDecimalPoint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More than one allowed decimal-point found “%2$@“ at position %1$d."
+          }
+        }
+      }
+    },
+    "error.parameterInInvalidRange" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parameter “%3$@“ of function “%2$@“ at position %1$d with value “%4$@“ not in valid range."
+          }
+        }
+      }
+    },
+    "error.tooManyOperands" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too many operands received: “%1$@“"
+          }
+        }
+      }
+    },
+    "error.unexpectedClosingArray" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unexpected closing array at position %1$d."
+          }
+        }
+      }
+    },
+    "error.unexpectedClosingBrace" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unexpected closing brace at position %1$d."
+          }
+        }
+      }
+    },
+    "error.unexpectedOpenArray" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unexpected open array at position %1$d."
+          }
+        }
+      }
+    },
+    "error.unexpectedStructureSeparator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unexpected structure separator at position %1$d."
+          }
+        }
+      }
+    },
+    "error.unexpectedToken" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unexpected token “%1$@“ given at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.unexpectedTokenAfterInfixOperator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unexpected token “%1$@“ found at range (%2$d-%3$d) after Infix-operator."
+          }
+        }
+      }
+    },
+    "error.unknownEscapeCharacter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown escape character “%2$@“ used at position %1$d."
+          }
+        }
+      }
+    },
+    "error.unknownFunction" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown function “%1$@“ was addressed at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.unknownOperator" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown operator “%1$@“ was addressed at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "error.unknownVariableOrConstant" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown variable or constant “%1$@“ at position %2$d."
+          }
+        }
+      }
+    },
+    "error.useOfArrayWithoutVariable" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use of array without variable “%1$@“ at range (%2$d-%3$d)."
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.0"
+}
