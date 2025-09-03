@@ -45,9 +45,9 @@ public final class FunctionUPPER: ExpressionFunction {
                                  functionToken: Token,
                                  arguments: [ExpressionValue]) throws(ExpressionError) -> ExpressionValue {
         let p1: ExpressionValue = arguments[0]
-        if p1.type == .null {
+        if p1.isNullValue {
             return ExpressionValue.ofNil()
-        } else if p1.type == .string {
+        } else if p1.isStringValue {
             return ExpressionValue.of(p1.asString()!.uppercased())
         } else {
             throw ExpressionError.invalidParameterType(token: functionToken,

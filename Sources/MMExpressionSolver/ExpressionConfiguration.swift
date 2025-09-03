@@ -22,6 +22,7 @@ public struct ExpressionConfiguration {
                 + ExpressionConfiguration.setupDateFunctions()
                 + ExpressionConfiguration.setupMiscFunctions()
                 + ExpressionConfiguration.setupConversionFunctions()
+                + ExpressionConfiguration.setupMeasurementFunctions()
     }
     
     /// Gather all operators.

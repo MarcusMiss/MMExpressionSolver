@@ -22,7 +22,8 @@ class ExpressionConfigurationTests {
                 + ExpressionConfiguration.setupStringFunctions().count
                 + ExpressionConfiguration.setupDateFunctions().count
                 + ExpressionConfiguration.setupMiscFunctions().count
-                + ExpressionConfiguration.setupConversionFunctions().count)
+                + ExpressionConfiguration.setupConversionFunctions().count
+                + ExpressionConfiguration.setupMeasurementFunctions().count)
         print("configuration.functions.count=\(configuration.functions.count)")
     }
 

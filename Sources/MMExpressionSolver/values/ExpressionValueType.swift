@@ -8,7 +8,7 @@ import Foundation
 /// Enumaration of all data-types.
 ///
 /// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
-public enum ExpressionValueType: Codable, CaseIterable, Sendable {
+public enum ExpressionValueType: Codable, Sendable, Hashable {
 
     case string
     case double
@@ -23,6 +23,7 @@ public enum ExpressionValueType: Codable, CaseIterable, Sendable {
     case tupel
     case null
     case nodeAST
+    case measurement(unit: ExpressionUnitType)
 
     /// Return name of type.
     /// - Returns: typename
@@ -54,6 +55,8 @@ public enum ExpressionValueType: Codable, CaseIterable, Sendable {
             return "Nil"
         case .nodeAST:
             return "AST"
+        case .measurement:
+            return "Measurement"
         }
     }
 

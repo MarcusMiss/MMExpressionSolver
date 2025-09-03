@@ -28,6 +28,8 @@ public struct ExpressionFunctionParameter: Hashable, CustomStringConvertible, Cu
     public static let nameStart: String = "start"
     /// Constant for _length_.
     public static let nameLength: String = "length"
+    /// Constant for _unit_.
+    public static let nameUnit: String = "unit"
 
     // MARK: - Properties
     

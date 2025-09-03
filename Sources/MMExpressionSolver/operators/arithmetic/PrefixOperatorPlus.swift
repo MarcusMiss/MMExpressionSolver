@@ -35,15 +35,15 @@ public final class PrefixOperatorPlus: ExpressionOperator {
                                  operatorToken: Token,
                                  arguments: [ExpressionValue]) throws(ExpressionError) -> ExpressionValue {
         let p1: ExpressionValue = arguments[0]
-        if p1.type == .null {
+        if p1.isNullValue {
             return ExpressionValue.ofNil()
-        } else if p1.type == .decimal {
+        } else if p1.isDecimalValue {
             return ExpressionValue.of(p1.asDecimal()!.magnitude)
-        } else if p1.type == .double {
+        } else if p1.isDoubleValue {
             return ExpressionValue.of(p1.asDouble()!.magnitude)
-        } else if p1.type == .float {
+        } else if p1.isFloatValue {
             return ExpressionValue.of(p1.asFloat()!.magnitude)
-        } else if p1.type == .int {
+        } else if p1.isIntegerValue {
             return ExpressionValue.of(Int(p1.asInteger()!.magnitude))
         } else {
             throw ExpressionError.nonMatchingOperand(token: operatorToken, value: p1.asStringForError())
