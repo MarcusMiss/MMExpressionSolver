@@ -30,6 +30,7 @@ These types can be used directly in expressions by their textual representation 
 
 Aside from simple types also _complex_ types are supported:
 
+- `Measurement` (all unit-types)
 - `Structs`
 - `Classes`
 - `Tupels`

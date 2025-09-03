@@ -11,8 +11,6 @@ import Testing
 class ExpressionValueTypeTests {
     
     @Test func validateEnums() async throws {
-        #expect(ExpressionValueType.allCases.count == 13)
-
         #expect(ExpressionValueType.string.getTypeName() == "String")
         #expect(ExpressionValueType.double.getTypeName() == "Double")
         #expect(ExpressionValueType.float.getTypeName() == "Float")
@@ -26,6 +24,7 @@ class ExpressionValueTypeTests {
         #expect(ExpressionValueType.tupel.getTypeName() == "Tupel")
         #expect(ExpressionValueType.null.getTypeName() == "Nil")
         #expect(ExpressionValueType.nodeAST.getTypeName() == "AST")
+        #expect(ExpressionValueType.measurement(unit: .unitArea).getTypeName() == "Measurement")
     }
-    
+
 }

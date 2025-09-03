@@ -112,3 +112,31 @@ Overview of converter functions in alphabetical order.
 - <doc:MMExpressionSolver/FunctionCFLT>
 - <doc:MMExpressionSolver/FunctionCINT>
 - <doc:MMExpressionSolver/FunctionCSTR>
+
+### Measurement functions
+
+Overview of measurement-related functions in alphabetical order.
+
+- <doc:MMExpressionSolver/FunctionUNITACCELERATION>
+- <doc:MMExpressionSolver/FunctionUNITANGLE>
+- <doc:MMExpressionSolver/FunctionUNITAREA>
+- <doc:MMExpressionSolver/FunctionUNITCONCENTRATIONMASS>
+- <doc:MMExpressionSolver/FunctionUNITCONVERT>
+- <doc:MMExpressionSolver/FunctionUNITDISPERSION>
+- <doc:MMExpressionSolver/FunctionUNITDURATION>
+- <doc:MMExpressionSolver/FunctionUNITELECTRICCHARGE>
+- <doc:MMExpressionSolver/FunctionUNITELECTRICCURRENT>
+- <doc:MMExpressionSolver/FunctionUNITELECTRICPOTENTIALDIFFERENCE>
+- <doc:MMExpressionSolver/FunctionUNITELECTRICRESISTENCE>
+- <doc:MMExpressionSolver/FunctionUNITENERGY>
+- <doc:MMExpressionSolver/FunctionUNITFREQUENCY>
+- <doc:MMExpressionSolver/FunctionUNITFUELEFFICIENCY>
+- <doc:MMExpressionSolver/FunctionUNITILLUMINANCE>
+- <doc:MMExpressionSolver/FunctionUNITINFORMATIONSTORAGE>
+- <doc:MMExpressionSolver/FunctionUNITLENGTH>
+- <doc:MMExpressionSolver/FunctionUNITMASS>
+- <doc:MMExpressionSolver/FunctionUNITPOWER>
+- <doc:MMExpressionSolver/FunctionUNITPRESSURE>
+- <doc:MMExpressionSolver/FunctionUNITSPEED>
+- <doc:MMExpressionSolver/FunctionUNITTEMPERATURE>
+- <doc:MMExpressionSolver/FunctionUNITVOLUME>

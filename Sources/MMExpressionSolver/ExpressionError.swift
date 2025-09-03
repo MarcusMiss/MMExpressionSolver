@@ -76,7 +76,7 @@ public enum ExpressionError: Error {
     // Error: invalid field in structure
     case invalidFieldInStructure(token: Token, field: String)
     // Error: parameter-type not valid
-    case invalidParameter(paramName: String, recType: ExpressionValueType, expType: ExpressionValueType, value: String)
+    case invalidParameter(paramName: String, recType: String, expType: String, value: String)
     /// Error: Unknown variable or constant
     case unknownVariableOrConstant(token: Token)
     /// Error: Invalid index
@@ -225,7 +225,7 @@ extension ExpressionError: Equatable, LocalizedError {
                                recType: let recType,
                                expType: let expType,
                                value: let value):
-            return LocalizedExprErrorString("error.invalidParameter", with: paramName, recType.getTypeName(), expType.getTypeName(), value)
+            return LocalizedExprErrorString("error.invalidParameter", with: paramName, recType, expType, value)
 
         case .invalidFieldInStructure(token: let token,
                                       field: let field):

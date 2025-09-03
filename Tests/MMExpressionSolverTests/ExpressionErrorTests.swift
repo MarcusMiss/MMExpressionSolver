@@ -226,12 +226,12 @@ class ExpressionErrorTests {
                 == "Unsupported type “literalNumber“ for “SYM“ in structure at 1.")
 
         print(ExpressionError.invalidParameter(paramName: "P1",
-                                               recType: .array,
-                                               expType: .datetime,
+                                               recType: ExpressionValueType.array.getTypeName(),
+                                               expType: ExpressionValueType.datetime.getTypeName(),
                                                value: "FOO").localizedDescription)
         #expect(ExpressionError.invalidParameter(paramName: "P1",
-                                                 recType: .array,
-                                                 expType: .datetime,
+                                                 recType: ExpressionValueType.array.getTypeName(),
+                                                 expType: ExpressionValueType.datetime.getTypeName(),
                                                  value: "FOO").localizedDescription
                 == "Parameter “P1“ expected Array but got Date: “FOO“.")
 

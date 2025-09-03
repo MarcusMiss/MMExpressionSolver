@@ -43,7 +43,7 @@ public final class FunctionARRAYLEN: ExpressionFunction {
                                  functionToken: Token,
                                  arguments: [ExpressionValue]) throws(ExpressionError) -> ExpressionValue {
         let p1: ExpressionValue = arguments[0]
-        if p1.type == .array {
+        if p1.isArrayValue {
             return ExpressionValue.of(p1.asArray()!.count)!
         }
         throw ExpressionError.invalidParameterType(token: functionToken,

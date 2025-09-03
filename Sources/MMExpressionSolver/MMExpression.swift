@@ -340,8 +340,8 @@ public struct MMExpression: CustomStringConvertible, CustomDebugStringConvertibl
         if parameterDef.strictTypes.isEmpty == false {
             if !parameterDef.strictTypes.contains(paramValue.type) {
                 throw ExpressionError.invalidParameter(paramName: parameterDef.name,
-                                                       recType: paramValue.type,
-                                                       expType: paramValue.type,
+                                                       recType: paramValue.type.getTypeName(),
+                                                       expType: paramValue.type.getTypeName(),
                                                        value: paramValue.asStringForError())
             }
         }

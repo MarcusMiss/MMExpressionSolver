@@ -46,9 +46,9 @@ public final class FunctionTRIM: ExpressionFunction {
                                  functionToken: Token,
                                  arguments: [ExpressionValue]) throws(ExpressionError) -> ExpressionValue {
         let p1: ExpressionValue = arguments[0]
-        if p1.type == .null {
+        if p1.isNullValue {
             return ExpressionValue.ofNil()
-        } else if p1.type == .string {
+        } else if p1.isStringValue {
             return ExpressionValue.of(FunctionTRIM.TRIM(p1.asString()!))
         } else {
             throw ExpressionError.invalidParameterType(token: functionToken,
