@@ -9,6 +9,8 @@ public extension ExpressionConfiguration {
     /// - Returns: functions
     static func setupStringFunctions() -> [any ExpressionFunction] {
         return [
+            FunctionHASPOSTFIX(),
+            FunctionHASPREFIX(),
             FunctionLEFT(),
             FunctionLEN(),
             FunctionLOWER(),
@@ -18,6 +20,8 @@ public extension ExpressionConfiguration {
             FunctionREPLACEFIRST(),
             FunctionRTRIM(),
             FunctionTRIM(),
+            FunctionTRIMPOSTFIX(),
+            FunctionTRIMPREFIX(),
             FunctionRIGHT(),
             FunctionUPPER(),
             FunctionUUID(),

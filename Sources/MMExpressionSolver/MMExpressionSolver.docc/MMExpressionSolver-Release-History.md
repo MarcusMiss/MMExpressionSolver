@@ -12,14 +12,16 @@ Overview of MMExpressionSolver-releases. See what is new and what did change.
 
 | Release                                                   | Date       | Comment                                              |
 |-----------------------------------------------------------|------------|------------------------------------------------------| 
-| <doc:MMExpressionSolver-Release-History#Release-1.1.0>    | 2025-mm-dd | TODO                                                 |
+| <doc:MMExpressionSolver-Release-History#Release-1.1.0>    | 2025-09-04 |                                                      |
 | <doc:MMExpressionSolver-Release-History#Release-1.0.0>    | 2025-08-31 | First release.                                       |
 
 Date is in format _YYYY-MM-DD_.
 
 ### Release 1.1.0
 
-- Support for datatype _Measurement_ (all unit-types).
+- Support for datatype _Measurement_ (all unit-types), including functions to create and convert measurements.
+
+- Added functions `HASPREFIX`, `HASPOSTFIX`, `TRIMPREFIX`, `TRIMPOSTFIX`.
 
 ### Release 1.0.0
 
