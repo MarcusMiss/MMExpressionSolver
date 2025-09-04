@@ -17,6 +17,8 @@ If you choose the `createDefault()` of ``ExpressionConfiguration`` all operators
 
 Overview of `String`-related functions in alphabetical order.
 
+- <doc:MMExpressionSolver/FunctionHASPOSTFIX>
+- <doc:MMExpressionSolver/FunctionHASPREFIX>
 - <doc:MMExpressionSolver/FunctionLEFT>
 - <doc:MMExpressionSolver/FunctionLEN>
 - <doc:MMExpressionSolver/FunctionLOWER>
@@ -27,6 +29,8 @@ Overview of `String`-related functions in alphabetical order.
 - <doc:MMExpressionSolver/FunctionRIGHT>
 - <doc:MMExpressionSolver/FunctionRTRIM>
 - <doc:MMExpressionSolver/FunctionTRIM>
+- <doc:MMExpressionSolver/FunctionTRIMPOSTFIX>
+- <doc:MMExpressionSolver/FunctionTRIMPREFIX>
 - <doc:MMExpressionSolver/FunctionUPPER>
 - <doc:MMExpressionSolver/FunctionUUID>
 
