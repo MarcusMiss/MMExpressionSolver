@@ -12,10 +12,15 @@ Overview of MMExpressionSolver-releases. See what is new and what did change.
 
 | Release                                                   | Date       | Comment                                              |
 |-----------------------------------------------------------|------------|------------------------------------------------------| 
-| <doc:MMExpressionSolver-Release-History#Release-1.1.0>    | 2025-09-04 |                                                      |
+| <doc:MMExpressionSolver-Release-History#Release-1.2.0>    | 2025-mm-dd |                                                      |
+| <doc:MMExpressionSolver-Release-History#Release-1.1.0>    | 2025-09-04 | Second release.                                      |
 | <doc:MMExpressionSolver-Release-History#Release-1.0.0>    | 2025-08-31 | First release.                                       |
 
 Date is in format _YYYY-MM-DD_.
+
+### Release 1.2.0
+
+- Update of package-dependency to version _1.3.1_.
 
 ### Release 1.1.0
 
