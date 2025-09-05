@@ -54,7 +54,7 @@ public final class FunctionTRIMPOSTFIX: ExpressionFunction {
         if p1.type == .null {
             return ExpressionValue.ofNil()
         } else if p1.type == .string && p2.type == .string {
-            return ExpressionValue.of(FunctionTRIMPOSTFIX.TRIMPOSTFIX(p1.asString()!, p2.asString()!))
+            return ExpressionValue.of(p1.asString()!.trimPostfix(p2.asString()!))
         }
         if !p1.isStringValue {
             throw ExpressionError.invalidParameterType(token: functionToken,
@@ -78,16 +78,6 @@ public final class FunctionTRIMPOSTFIX: ExpressionFunction {
 
     public var debugDescription: String {
         return FunctionTRIMPOSTFIX.symbolFunction
-    }
-
-    // MARK: - API
-
-    public static func TRIMPOSTFIX(_ text: String, _ pattern: String) -> String {
-        if !text.hasSuffix(pattern) {
-            return text
-        }
-        let range: Range = text.index(text.startIndex, offsetBy: 0)..<text.index(text.endIndex, offsetBy: -pattern.count)
-        return String(text[range])
     }
 
 }

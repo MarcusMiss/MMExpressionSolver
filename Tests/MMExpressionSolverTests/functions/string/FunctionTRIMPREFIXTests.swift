@@ -10,16 +10,6 @@ import Testing
 @Suite("Function TRIMPREFIX()")
 class FunctionTRIMPREFIXTests {
 
-    @Test("Validation of Utility")
-    func validateUtility() async throws {
-        #expect((FunctionTRIMPREFIX.TRIMPREFIX("", "") == "") == true)
-        #expect((FunctionTRIMPREFIX.TRIMPREFIX("Lorem", "Lorem") == "") == true)
-        #expect((FunctionTRIMPREFIX.TRIMPREFIX("Lorem", "L") == "orem") == true)
-        #expect((FunctionTRIMPREFIX.TRIMPREFIX("Lorem", "Lo") == "rem") == true)
-        #expect((FunctionTRIMPREFIX.TRIMPREFIX("Lorem", "Lor") == "em") == true)
-        #expect((FunctionTRIMPREFIX.TRIMPREFIX("Lorem", "Lore") == "m") == true)
-    }
-
     @Test("Definition of ()()")
     func validateInit() async throws {
         let f: FunctionTRIMPREFIX = FunctionTRIMPREFIX()
