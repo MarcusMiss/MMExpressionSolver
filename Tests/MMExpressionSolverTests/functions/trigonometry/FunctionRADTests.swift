@@ -16,7 +16,7 @@ class FunctionRADTests {
         #expect(f.id == FunctionIdentifier("FunctionRAD"))
         #expect(f.symbols == ["RAD"])
         #expect(f.definition == ExpressionFunctionDefinition(name: "FunctionRAD", parameters:[
-            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int])
+            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int,  .measurement(unit: .unitAngle)])
         ]))
         print("description: \"\(f.description)\"")
         print("debugDescription: \"\(f.debugDescription)\"")
@@ -52,6 +52,7 @@ class FunctionRADTests {
             "RAD(var2)",
             "RAD(var3)",
             "RAD(var4)",
+            "RAD(UNITANGLE(9.0, \"°\"))",
         ]
       )
     func evaluateInExpression(expressionSource: String) async throws {

@@ -14,8 +14,9 @@ class MMExpressionTests {
         var variables: any ExpressionVariableStorage = ExpressionVariableStorageImpl()
         var functions: any ExpressionFunctionRepository = ExpressionFunctionRepositoryImpl([])
         var operators: any ExpressionOperatorRepository = ExpressionOperatorRepositoryImpl([])
+        var calendar: Calendar = Calendar(identifier: .iso8601)
     }
-    
+
     @Test("Invalid expression build",
           arguments: [
             "",

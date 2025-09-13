@@ -14,7 +14,7 @@ let package = Package(
             targets: ["MMExpressionSolver"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/MarcusMiss/MMEcletic.git", .upToNextMajor(from: "1.2.0")),
+        .package(url: "https://github.com/MarcusMiss/MMEcletic.git", .upToNextMajor(from: "1.3.1")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

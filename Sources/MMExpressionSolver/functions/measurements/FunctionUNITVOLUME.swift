@@ -32,7 +32,7 @@ import Foundation
 /// - `cup`, `pt`, `qt`, `gal`, `metric cup`
 /// - `imp.tsp`, `imp.tbsp`, `imp.fl oz`, `imp.pt`, `imp.qt`, `imp.gal`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITVOLUME: ExpressionFunction {
 
     /// Symbol of this function

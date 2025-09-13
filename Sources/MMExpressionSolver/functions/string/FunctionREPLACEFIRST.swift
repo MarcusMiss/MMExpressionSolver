@@ -15,7 +15,7 @@ import Foundation
 /// REPLACEFIRST(text: string, pattern: string, replacement: string) -> string
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionREPLACEFIRST: ExpressionFunction {
 
     /// Symbol of this function

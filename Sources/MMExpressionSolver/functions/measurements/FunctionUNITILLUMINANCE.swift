@@ -27,7 +27,7 @@ import Foundation
 ///
 /// - `lx`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITILLUMINANCE: ExpressionFunction {
 
     /// Symbol of this function

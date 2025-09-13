@@ -15,7 +15,7 @@ import Foundation
 /// ACOS(number: numeric value) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionACOS: ExpressionFunction {
 
     /// Symbol of this function

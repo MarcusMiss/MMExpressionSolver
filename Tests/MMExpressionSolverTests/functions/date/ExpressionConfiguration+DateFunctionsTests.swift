@@ -13,7 +13,7 @@ class ExpressionConfigurationDateFunctionTests {
     @Test("Validation of ExpressionConfiguration.setupDateFunctions")
     func setupStringFunctions() async throws {
         let funcs: [any ExpressionFunction] = ExpressionConfiguration.setupDateFunctions()
-        #expect(funcs.count == 1)
+        #expect(funcs.count == 14)
     }
 
 }

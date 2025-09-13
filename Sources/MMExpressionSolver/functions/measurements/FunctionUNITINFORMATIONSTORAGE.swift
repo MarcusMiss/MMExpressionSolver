@@ -31,7 +31,7 @@ import Foundation
 /// - `kilobytes`, `megabytes`, `gigabytes`, `terabytes`, `petabytes`, `exabytes`, `zettabytes`, `yottabytes`
 /// - `kibibytes`, `mebibytes`, `gibibytes`, `tebibytes`, `pebibytes`, `exbibytes`, `zebibytes`, `yobibytes`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITINFORMATIONSTORAGE: ExpressionFunction {
 
     /// Symbol of this function

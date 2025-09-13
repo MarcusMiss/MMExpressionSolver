@@ -27,7 +27,7 @@ import Foundation
 ///
 /// - `MA`, `kA`, `A`, `mA`, `µA`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITELECTRICCURRENT: ExpressionFunction {
 
     /// Symbol of this function

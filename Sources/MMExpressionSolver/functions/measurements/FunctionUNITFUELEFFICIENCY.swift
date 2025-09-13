@@ -27,7 +27,7 @@ import Foundation
 ///
 /// - `L/100km`, `mpg`, `imp.mpg`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITFUELEFFICIENCY: ExpressionFunction {
 
     /// Symbol of this function

@@ -29,7 +29,7 @@ import Foundation
 /// - `in²`, `ft²`, `yd²`, `mi²`
 /// - `ac`, `a`, `ha`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITAREA: ExpressionFunction {
 
     /// Symbol of this function

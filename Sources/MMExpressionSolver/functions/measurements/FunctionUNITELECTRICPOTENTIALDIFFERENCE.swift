@@ -27,7 +27,7 @@ import Foundation
 ///
 /// - `MV`, `kV`, `V`, `mV`, `µV`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITELECTRICPOTENTIALDIFFERENCE: ExpressionFunction {
 
     /// Symbol of this function

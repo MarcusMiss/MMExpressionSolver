@@ -15,7 +15,7 @@ import Foundation
 /// LOG(number: numeric value) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionLOG: ExpressionFunction {
 
     /// Symbol of this function

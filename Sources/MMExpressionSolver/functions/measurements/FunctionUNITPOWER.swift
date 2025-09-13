@@ -27,7 +27,7 @@ import Foundation
 ///
 /// - `TW`, `GW`, `MW`, `kW`, `W`, `mW`, `µW`, `nW`, `pW`, `fW`, `hp`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITPOWER: ExpressionFunction {
 
     /// Symbol of this function

@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import MMEcletic
 
 /// Function HASPREFIX()
 ///
@@ -21,7 +22,7 @@ import Foundation
 /// TRIMPREFIX("Lorem Ipsum", "Lorem")
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionTRIMPREFIX: ExpressionFunction {
 
     /// Symbol of this function
@@ -54,7 +55,7 @@ public final class FunctionTRIMPREFIX: ExpressionFunction {
         if p1.type == .null {
             return ExpressionValue.ofNil()
         } else if p1.type == .string && p2.type == .string {
-            return ExpressionValue.of(FunctionTRIMPREFIX.TRIMPREFIX(p1.asString()!, p2.asString()!))
+            return ExpressionValue.of(p1.asString()!.trimPrefix(p2.asString()!))
         }
         if !p1.isStringValue {
             throw ExpressionError.invalidParameterType(token: functionToken,
@@ -78,16 +79,6 @@ public final class FunctionTRIMPREFIX: ExpressionFunction {
 
     public var debugDescription: String {
         return FunctionTRIMPREFIX.symbolFunction
-    }
-
-    // MARK: - API
-
-    public static func TRIMPREFIX(_ text: String, _ pattern: String) -> String {
-        if !text.hasPrefix(pattern) {
-            return text
-        }
-        let range: Range = text.index(text.startIndex, offsetBy: pattern.count)..<text.index(text.endIndex, offsetBy: 0)
-        return String(text[range])
     }
 
 }

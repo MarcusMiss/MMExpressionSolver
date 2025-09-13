@@ -26,7 +26,7 @@ import Foundation
 ///
 /// - `kJ`, `J`, `kCal`, `cal`, `kWh`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITENERGY: ExpressionFunction {
 
     /// Symbol of this function

@@ -15,7 +15,7 @@ import Foundation
 /// MID(text: string, start: integer, length: integer) -> string
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionMID: ExpressionFunction {
 
     /// Symbol of this function

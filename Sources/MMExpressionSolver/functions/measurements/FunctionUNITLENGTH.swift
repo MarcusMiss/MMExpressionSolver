@@ -29,7 +29,7 @@ import Foundation
 /// - `in`, `ft`, `yd`, `mi`, `smi`, `ly`
 /// - `NM`, `fur`, `ua`, `pc`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITLENGTH: ExpressionFunction {
 
     /// Symbol of this function

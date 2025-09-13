@@ -15,8 +15,7 @@ import Foundation
 /// ISNOTNULL(value) -> Bool
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
-///
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.}
 public final class FunctionISNOTNULL: ExpressionFunction {
 
     /// Symbol of this function

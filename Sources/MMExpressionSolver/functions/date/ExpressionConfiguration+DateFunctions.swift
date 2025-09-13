@@ -12,6 +12,19 @@ public extension ExpressionConfiguration {
     static func setupDateFunctions() -> [any ExpressionFunction] {
         return [
             FunctionNOW(),
+            FunctionDATE(),
+            FunctionADDYEAR(),
+            FunctionADDMONTH(),
+            FunctionADDDAY(),
+            FunctionADDHOUR(),
+            FunctionADDMINUTE(),
+            FunctionADDSECOND(),
+            FunctionGETYEAR(),
+            FunctionGETMONTH(),
+            FunctionGETDAY(),
+            FunctionGETHOUR(),
+            FunctionGETMINUTE(),
+            FunctionGETSECOND(),
         ]
     }
 

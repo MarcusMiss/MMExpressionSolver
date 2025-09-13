@@ -18,7 +18,7 @@ import Foundation
 /// ABS(value: float) -> float
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionABS: ExpressionFunction {
 
     /// Symbol of this function

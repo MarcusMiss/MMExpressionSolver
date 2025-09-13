@@ -13,9 +13,10 @@ import Foundation
 ///
 /// ```
 /// DEG(number: numeric value) -> double
+/// DEG(number: measurement<angle>) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionDEG: ExpressionFunction {
 
     /// Symbol of this function
@@ -31,7 +32,7 @@ public final class FunctionDEG: ExpressionFunction {
         name: FunctionDEG.symbolFunction,
         parameters:[
             ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber,
-                                        strictTypes: [.double, .float, .decimal, .int ])
+                                        strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle) ])
         ]
     )
 
@@ -45,6 +46,9 @@ public final class FunctionDEG: ExpressionFunction {
         if p1.isNumericValue {
             let value: Double = p1.asConvertedDoubleNumber()!
             return ExpressionValue.of((value * 180.0 / .pi))!
+        } else if p1.isUnitAngle {
+            let value: Measurement<UnitAngle> = p1.asUnitAngle()!
+            return ExpressionValue.of(value.converted(to: .degrees))
         } else {
             throw ExpressionError.invalidParameterType(token: functionToken,
                                                        funcName: definition.name,

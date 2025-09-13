@@ -10,16 +10,6 @@ import Testing
 @Suite("Function FunctionTRIMPOSTFIX()")
 class FunctionTRIMPOSTFIXTests {
 
-    @Test("Validation of Utility")
-    func validateUtility() async throws {
-        #expect((FunctionTRIMPOSTFIX.TRIMPOSTFIX("", "") == "") == true)
-        #expect((FunctionTRIMPOSTFIX.TRIMPOSTFIX("Lorem", "Lorem") == "") == true)
-        #expect((FunctionTRIMPOSTFIX.TRIMPOSTFIX("Lorem", "m") == "Lore") == true)
-        #expect((FunctionTRIMPOSTFIX.TRIMPOSTFIX("Lorem", "em") == "Lor") == true)
-        #expect((FunctionTRIMPOSTFIX.TRIMPOSTFIX("Lorem", "rem") == "Lo") == true)
-        #expect((FunctionTRIMPOSTFIX.TRIMPOSTFIX("Lorem", "orem") == "L") == true)
-    }
-
     @Test("Definition of ()()")
     func validateInit() async throws {
         let f: FunctionTRIMPOSTFIX = FunctionTRIMPOSTFIX()

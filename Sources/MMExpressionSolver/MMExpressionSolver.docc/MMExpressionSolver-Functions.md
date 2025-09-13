@@ -38,6 +38,19 @@ Overview of `String`-related functions in alphabetical order.
 
 Overview of `Date`-related functions in alphabetical order.
 
+- <doc:MMExpressionSolver/FunctionADDDAY>
+- <doc:MMExpressionSolver/FunctionADDHOUR>
+- <doc:MMExpressionSolver/FunctionADDMINUTE>
+- <doc:MMExpressionSolver/FunctionADDMONTH>
+- <doc:MMExpressionSolver/FunctionADDSECOND>
+- <doc:MMExpressionSolver/FunctionADDYEAR>
+- <doc:MMExpressionSolver/FunctionDATE>
+- <doc:MMExpressionSolver/FunctionGETDAY>
+- <doc:MMExpressionSolver/FunctionGETHOUR>
+- <doc:MMExpressionSolver/FunctionGETMINUTE>
+- <doc:MMExpressionSolver/FunctionGETMONTH>
+- <doc:MMExpressionSolver/FunctionGETSECOND>
+- <doc:MMExpressionSolver/FunctionGETYEAR>
 - <doc:MMExpressionSolver/FunctionNOW>
 
 ### Mathematical functions

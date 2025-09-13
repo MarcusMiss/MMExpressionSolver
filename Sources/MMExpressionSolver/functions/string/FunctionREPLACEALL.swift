@@ -15,7 +15,7 @@ import Foundation
 /// REPLACEALL(text: string, pattern: string, replacement: string) -> string
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionREPLACEALL: ExpressionFunction {
 
     /// Symbol of this function

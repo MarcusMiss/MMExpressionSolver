@@ -21,6 +21,8 @@ public class ExpressionEvaluationContextImpl: ExpressionEvaluationContext {
     /// Repository of operators.
     public let operators: any ExpressionOperatorRepository
 
+    public let calendar: Calendar
+
     // MARK: - Initialization
 
     /// Initialization of object.
@@ -28,13 +30,16 @@ public class ExpressionEvaluationContextImpl: ExpressionEvaluationContext {
     ///   - variables: storage for variables
     ///   - functions: function repository
     ///   - operators: operator repository
+    ///   - calendar: calendar to use
     public init(variables: any ExpressionVariableStorage,
                 functions: any ExpressionFunctionRepository,
-                operators: any ExpressionOperatorRepository
+                operators: any ExpressionOperatorRepository,
+                calendar: Calendar = .current
     ) {
         self.variables = variables
         self.functions = functions
         self.operators = operators
+        self.calendar = calendar
     }
 
     /// Initialization of object.
@@ -43,6 +48,7 @@ public class ExpressionEvaluationContextImpl: ExpressionEvaluationContext {
         self.variables = ExpressionVariableStorageImpl()
         self.functions = configuration.functions
         self.operators = configuration.operators
+        self.calendar = Calendar.current
     }
 
 }

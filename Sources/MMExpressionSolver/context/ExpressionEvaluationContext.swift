@@ -12,6 +12,7 @@ import Foundation
 /// - variables
 /// - function repository
 /// - operator repository
+/// - calendar
 ///
 /// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public protocol ExpressionEvaluationContext {
@@ -23,5 +24,7 @@ public protocol ExpressionEvaluationContext {
     var functions: any ExpressionFunctionRepository { get }
 
     var operators: any ExpressionOperatorRepository { get }
+
+    var calendar: Calendar { get }
 
 }
