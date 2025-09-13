@@ -6,9 +6,9 @@
 
 A Swift-framework to solve (mathematical) expressions.
 
-- Suppport of following types: `Int`, `Float`, `Double`, `Decimal`, `String`, `Date` and `Bool`.
+- Support of following types: `Int`, `Float`, `Double`, `Decimal`, `String`, `Date` and `Bool`.
 
-- Suppport of following types: `Measurement`.
+- Support of additonal types: `Measurement`.
 
 - Support for _structs_, _classes_ and _tupels_.
 
@@ -18,7 +18,7 @@ A Swift-framework to solve (mathematical) expressions.
 
 - Out-of the box Operators and Functions for mathematical, logarithmic, trigonometry and string-operations.
 
-- Docc-documentation is included.
+- [Docc-documentation](https://marcusmiss.github.io/MMExpressionSolver/documentation/mmexpressionsolver/) is included.
 
 ## Integration sample
 

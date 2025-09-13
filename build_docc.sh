@@ -10,4 +10,4 @@ xcrun docc process-archive transform-for-static-hosting \
     --output-path "docc" \
     --hosting-base-path "MMExpressionSolver"
 
-#echo '<!DOCTYPE html><html><head><meta http-equiv = "refresh" content = "0; url = https://marcusmiss.github.io/MMExpressionSolver/documentation/mmexpressionsolver" /><link rel="canonical" href="https://marcusmiss.github.io/MMExpressionSolver/documentation/mmexpressionsolver"></head><body></body></html>' > docc/index.html
+echo '<!DOCTYPE html><html><head><meta http-equiv = "refresh" content = "0; url = https://marcusmiss.github.io/MMExpressionSolver/documentation/mmexpressionsolver" /><link rel="canonical" href="https://marcusmiss.github.io/MMExpressionSolver/documentation/mmexpressionsolver"></head><body></body></html>' > docc/index.html
