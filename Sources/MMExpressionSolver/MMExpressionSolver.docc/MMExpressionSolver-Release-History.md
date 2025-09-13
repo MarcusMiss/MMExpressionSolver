@@ -12,7 +12,7 @@ Overview of MMExpressionSolver-releases. See what is new and what did change.
 
 | Release                                                   | Date       | Comment                                              |
 |-----------------------------------------------------------|------------|------------------------------------------------------| 
-| <doc:MMExpressionSolver-Release-History#Release-1.2.0>    | 2025-mm-dd |                                                      |
+| <doc:MMExpressionSolver-Release-History#Release-1.2.0>    | 2025-mm-dd | -                                                    |
 | <doc:MMExpressionSolver-Release-History#Release-1.1.0>    | 2025-09-04 | Second release.                                      |
 | <doc:MMExpressionSolver-Release-History#Release-1.0.0>    | 2025-08-31 | First release.                                       |
 
@@ -20,7 +20,15 @@ Date is in format _YYYY-MM-DD_.
 
 ### Release 1.2.0
 
-- Update of package-dependency to version _1.3.1_.
+- Update of package-dependency _MMEcletic_ to version _1.3.1_.
+
+- Added functions `DATE`, `NOW`.
+
+- Added functions `ADDYEAR`, `ADDMONTH`, `ADDDAY`, `ADDHOUR`, `ADDMINUTE`, `ADDSECOND`.
+
+- Added functions `GETYEAR`, `GETMONTH`, `GETDAY`, `GETHOUR`, `GETMINUTE`, `GETSECOND`.
+
+- Functions `DEG`, `RAD` supports _Measurement_.
 
 ### Release 1.1.0
 
@@ -30,7 +38,7 @@ Date is in format _YYYY-MM-DD_.
 
 ### Release 1.0.0
 
-- Support of datatypes _Int_, _Float_, _Double_, _Decimal_, _String_, _Date_, _Bool_
+- Support of datatypes _Int_, _Float_, _Double_, _Decimal_, _String_, _Date_, _Bool_.
 
 - Support of _structs_, _classes_ and _tupels_.
 

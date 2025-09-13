@@ -21,7 +21,7 @@ import Foundation
 /// HASPOSTFIX("Lorem Ipsum", "Ipsum")
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionHASPOSTFIX: ExpressionFunction {
 
     /// Symbol of this function

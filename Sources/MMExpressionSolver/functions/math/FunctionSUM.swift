@@ -15,7 +15,7 @@ import Foundation
 /// SUM(value: numeric, ...: numeric) -> numeric
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionSUM: ExpressionFunction {
 
     /// Symbol of this function

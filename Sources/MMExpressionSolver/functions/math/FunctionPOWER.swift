@@ -17,7 +17,7 @@ import Foundation
 /// POWER(value: int, power: int) -> decimal
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionPOWER: ExpressionFunction {
 
     /// Symbol of this function

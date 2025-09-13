@@ -15,7 +15,7 @@ import Foundation
 /// HYPOT(y: numeric value, x: numeric value) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionHYPOT: ExpressionFunction {
 
     /// Symbol of this function

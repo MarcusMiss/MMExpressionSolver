@@ -33,6 +33,19 @@ public struct ExpressionFunctionParameter: Hashable, CustomStringConvertible, Cu
     /// Constant for _pattern_.
     public static let namePattern: String = "pattern"
 
+    /// Constant for _year_.
+    public static let nameYear: String = "year"
+    /// Constant for _month_.
+    public static let nameMonth: String = "month"
+    /// Constant for _day_.
+    public static let nameDay: String = "day"
+    /// Constant for _month_.
+    public static let nameHour: String = "hour"
+    /// Constant for _minute_.
+    public static let nameMinute: String = "minute"
+    /// Constant for _second_.
+    public static let nameSecond: String = "second"
+
     // MARK: - Properties
     
     /// Name of parameter

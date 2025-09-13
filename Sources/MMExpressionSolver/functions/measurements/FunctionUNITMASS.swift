@@ -30,7 +30,7 @@ import Foundation
 /// - `t`, `ton`, `xx`
 /// - `ct`, `oz t`, `slug`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITMASS: ExpressionFunction {
 
     /// Symbol of this function

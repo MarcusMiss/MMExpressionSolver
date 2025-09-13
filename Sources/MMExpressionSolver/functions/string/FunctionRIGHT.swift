@@ -15,7 +15,7 @@ import Foundation
 /// RIGHT(text: string, numChars: integer) -> string
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionRIGHT: ExpressionFunction {
 
     /// Symbol of this function

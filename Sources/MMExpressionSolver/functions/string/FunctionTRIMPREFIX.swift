@@ -22,7 +22,7 @@ import MMEcletic
 /// TRIMPREFIX("Lorem Ipsum", "Lorem")
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionTRIMPREFIX: ExpressionFunction {
 
     /// Symbol of this function

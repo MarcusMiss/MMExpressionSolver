@@ -15,7 +15,7 @@ import Foundation
 /// CDBL(value: any) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionCDBL: ExpressionFunction {
 
     /// Symbol of this function

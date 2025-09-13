@@ -16,7 +16,7 @@ class FunctionDEGTests {
         #expect(f.id == FunctionIdentifier("FunctionDEG"))
         #expect(f.symbols == ["DEG"])
         #expect(f.definition == ExpressionFunctionDefinition(name: "FunctionDEG", parameters:[
-            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int])
+            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle)])
         ]))
         print("description: \"\(f.description)\"")
         print("debugDescription: \"\(f.debugDescription)\"")
@@ -52,6 +52,7 @@ class FunctionDEGTests {
             "DEG(var2)",
             "DEG(var3)",
             "DEG(var4)",
+            "DEG(UNITANGLE(9.0, \"rad\"))",
         ]
       )
     func evaluateInExpression(expressionSource: String) async throws {

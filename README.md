@@ -8,6 +8,8 @@ A Swift-framework to solve (mathematical) expressions.
 
 - Suppport of following types: `Int`, `Float`, `Double`, `Decimal`, `String`, `Date` and `Bool`.
 
+- Suppport of following types: `Measurement`.
+
 - Support for _structs_, _classes_ and _tupels_.
 
 - Support for _arrays_.
@@ -17,3 +19,29 @@ A Swift-framework to solve (mathematical) expressions.
 - Out-of the box Operators and Functions for mathematical, logarithmic, trigonometry and string-operations.
 
 - Docc-documentation is included.
+
+## Integration sample
+
+```
+let expression: String = "CSTR(var1)"
+
+// Provide configuration
+let config: ExpressionConfiguration = ExpressionConfiguration.createDefault()
+let result: Result<MMExpression, ExpressionError> = MMExpression.build(
+    expression: expression,
+    configuration: config
+)
+
+// Provide context
+let context: ExpressionEvaluationContextImpl = ExpressionEvaluationContextImpl(configuration: config)
+context.variables.storeVariable(identifier: "var1", value: ExpressionValue.of(100))
+
+// Evaluate expression
+let evalResult: Result<ExpressionValue, ExpressionError>  = result.valueSuccess!.evaluate(context: context)
+
+let evalValue: ExpressionValue = evalResult.valueSuccess!
+print("evalValue: \(evalValue)")
+
+#expect(evalValue.isStringValue)
+#expect(evalValue.asString()! == "100")
+```

@@ -27,7 +27,7 @@ import Foundation
 ///
 /// - `THz`, `GHz`, `MHz`, `kHz`, `Hz`, `mHz`, `µHz`, `nHz`
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITFREQUENCY: ExpressionFunction {
 
     /// Symbol of this function

@@ -42,7 +42,7 @@ import Foundation
 /// UNITCONVERT( UNITVOLUME(100.0, 'm³'), 'cm³')
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.1.0>. }
 public final class FunctionUNITCONVERT: ExpressionFunction {
 
     /// Symbol of this function

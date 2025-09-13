@@ -15,7 +15,7 @@ import Foundation
 /// ACOSECH(number: numeric value) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionACOSECH: ExpressionFunction {
 
     /// Symbol of this function

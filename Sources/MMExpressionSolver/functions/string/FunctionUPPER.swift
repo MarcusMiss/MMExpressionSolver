@@ -18,7 +18,7 @@ import Foundation
 /// LOWER(nil) -> nil
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.}
 public final class FunctionUPPER: ExpressionFunction {
 
     /// Symbol of this function

@@ -13,9 +13,10 @@ import Foundation
 ///
 /// ```
 /// RAD(number: numeric value) -> double
+/// RAD(number: measurement<angle>) -> double
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionRAD: ExpressionFunction {
 
     /// Symbol of this function
@@ -31,7 +32,7 @@ public final class FunctionRAD: ExpressionFunction {
         name: FunctionRAD.symbolFunction,
         parameters:[
             ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber,
-                                        strictTypes: [.double, .float, .decimal, .int ])
+                                        strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle)])
         ]
     )
 
@@ -45,6 +46,9 @@ public final class FunctionRAD: ExpressionFunction {
         if p1.isNumericValue {
             let value: Double = p1.asConvertedDoubleNumber()!
             return ExpressionValue.of((value * .pi / 180.0))!
+        } else if p1.isUnitAngle {
+            let value: Measurement<UnitAngle> = p1.asUnitAngle()!
+            return ExpressionValue.of(value.converted(to: .radians))
         } else {
             throw ExpressionError.invalidParameterType(token: functionToken,
                                                        funcName: definition.name,

@@ -15,7 +15,7 @@ import Foundation
 /// CFLT(value: any) -> float
 /// ```
 ///
-/// Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>.
+/// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
 public final class FunctionCFLT: ExpressionFunction {
 
     /// Symbol of this function
