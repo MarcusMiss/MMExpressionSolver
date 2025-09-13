@@ -18,7 +18,7 @@ Use of ``MMExpressionSolver`` is pretty simple.
 Add dependency to your application:
 
 ```swift
-.package(url: "https://github.com/MarcusMiss/MMExpressionSolver.git", .upToNextMajor(from: "1.0.0"))
+.package(url: "https://github.com/MarcusMiss/MMExpressionSolver.git", .upToNextMajor(from: "1.2.0"))
 ```
 
 ### Integrate in your code
