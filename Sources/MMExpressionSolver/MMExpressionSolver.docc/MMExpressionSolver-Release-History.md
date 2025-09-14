@@ -21,7 +21,7 @@ Date is in format _YYYY-MM-DD_.
 
 ### Release 1.3.0
 
-- [#17](https://github.com/MarcusMiss/MMExpressionSolver/issues/17) Add _measurment<angle>_-support for `SIN`, `COS`, `TAN`, `SINH`, `COSH`, `TANH`. 
+- [#17](https://github.com/MarcusMiss/MMExpressionSolver/issues/17) Add _measurement<angle>_-support for `SIN`, `COS`, `TAN`, `SINH`, `COSH`, `TANH`. 
 
 ### Release 1.2.0
 
