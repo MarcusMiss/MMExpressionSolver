@@ -13,6 +13,7 @@ import Foundation
 ///
 /// ```
 /// COSH(number: numeric value) -> double
+/// COSH(number: measurement<angle>) -> double
 /// ```
 ///
 /// @Small { Available since <doc:MMExpressionSolver-Release-History#Release-1.0.0>. }
@@ -31,7 +32,7 @@ public final class FunctionCOSH: ExpressionFunction {
         name: FunctionCOSH.symbolFunction,
         parameters:[
             ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber,
-                                        strictTypes: [.double, .float, .decimal, .int ])
+                                        strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle)])
         ]
     )
 
@@ -45,6 +46,9 @@ public final class FunctionCOSH: ExpressionFunction {
         if p1.isNumericValue {
             let value: Double = p1.asConvertedDoubleNumber()!
             return ExpressionValue.of(cosh(value))!
+        } else if p1.isUnitAngle {
+            let value: Measurement<UnitAngle> = p1.asUnitAngle()!.converted(to: .radians)
+            return ExpressionValue.of(cosh(value.value))
         } else {
             throw ExpressionError.invalidParameterType(token: functionToken,
                                                        funcName: definition.name,
