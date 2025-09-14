@@ -16,7 +16,7 @@ class FunctionSINTests {
         #expect(f.id == FunctionIdentifier("FunctionSIN"))
         #expect(f.symbols == ["SIN"])
         #expect(f.definition == ExpressionFunctionDefinition(name: "SIN", parameters:[
-            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int])
+            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle)])
         ]))
         print("description: \"\(f.description)\"")
         print("debugDescription: \"\(f.debugDescription)\"")
@@ -52,6 +52,7 @@ class FunctionSINTests {
             "SIN(var2)",
             "SIN(var3)",
             "SIN(var4)",
+            "SIN(UNITANGLE(90, \"°\"))",
         ]
     )
     func evaluateInExpression(expressionSource: String) async throws {

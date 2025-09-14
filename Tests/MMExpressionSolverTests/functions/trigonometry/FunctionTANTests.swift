@@ -16,7 +16,7 @@ class FunctionTANTests {
         #expect(f.id == FunctionIdentifier("FunctionTAN"))
         #expect(f.symbols == ["TAN"])
         #expect(f.definition == ExpressionFunctionDefinition(name: "TAN", parameters:[
-            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int])
+            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle)])
         ]))
         print("description: \"\(f.description)\"")
         print("debugDescription: \"\(f.debugDescription)\"")
@@ -52,6 +52,7 @@ class FunctionTANTests {
             "TAN(var2)",
             "TAN(var3)",
             "TAN(var4)",
+            "TAN(UNITANGLE(45, \"°\"))",
         ]
       )
     func evaluateInExpression(expressionSource: String) async throws {

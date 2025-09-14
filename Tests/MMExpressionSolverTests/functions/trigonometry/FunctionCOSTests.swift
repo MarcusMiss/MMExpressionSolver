@@ -16,7 +16,7 @@ class FunctionCOSTests {
         #expect(f.id == FunctionIdentifier("FunctionCOS"))
         #expect(f.symbols == ["COS"])
         #expect(f.definition == ExpressionFunctionDefinition(name: "COS", parameters:[
-            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int])
+            ExpressionFunctionParameter(name: ExpressionFunctionParameter.nameNumber, strictTypes: [.double, .float, .decimal, .int, .measurement(unit: .unitAngle)])
         ]))
         print("description: \"\(f.description)\"")
         print("debugDescription: \"\(f.debugDescription)\"")
@@ -52,6 +52,7 @@ class FunctionCOSTests {
             "COS(var2)",
             "COS(var3)",
             "COS(var4)",
+            "COS(UNITANGLE(180, \"°\"))",
         ]
       )
     func evaluateInExpression(expressionSource: String) async throws {
