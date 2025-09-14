@@ -12,7 +12,7 @@ Overview of MMExpressionSolver-releases. See what is new and what did change.
 
 | Release                                                   | Date       | Comment                                              |
 |-----------------------------------------------------------|------------|------------------------------------------------------| 
-| <doc:MMExpressionSolver-Release-History#Release-1.3.0>    | 2025-mm-dd | -                                                    |
+| <doc:MMExpressionSolver-Release-History#Release-1.3.0>    | 2025-09-14 | -                                                    |
 | <doc:MMExpressionSolver-Release-History#Release-1.2.0>    | 2025-09-13 | -                                                    |
 | <doc:MMExpressionSolver-Release-History#Release-1.1.0>    | 2025-09-04 | Second release.                                      |
 | <doc:MMExpressionSolver-Release-History#Release-1.0.0>    | 2025-08-31 | First release.                                       |
@@ -21,7 +21,7 @@ Date is in format _YYYY-MM-DD_.
 
 ### Release 1.3.0
 
-- [#17](https://github.com/MarcusMiss/MMExpressionSolver/issues/17) Add _measurment<angle>_-support for `SIN`, `COS`, `TAN`, `SINH`, `COSH`, `TANH`. 
+- [#17](https://github.com/MarcusMiss/MMExpressionSolver/issues/17) Add _measurement<angle>_-support for `SIN`, `COS`, `TAN`, `SINH`, `COSH`, `TANH`. 
 
 ### Release 1.2.0
 
